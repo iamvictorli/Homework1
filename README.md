@@ -11,9 +11,9 @@ using a version of Java SE as old as 1.7.0_51. Once compiled your program will b
 Notice I am not adding any package info to the class I am running, and I am not switching into any sub directories of Hw1, so avoid package declarations and make sure to test from the command line, not within any IDE. Your program when run should use java.net.Socket to make a connection to port 80 of www.cs.sjsu.edu. It should obtain a java.io.OutputStream from the constructed Socket and use this to make an HTTP/1.1 GET request for `/faculty/pollett/some_path`. It should send the Host header with value `www.cs.sjsu.edu`. It should the use the java.io.InputStream obtained from the Socket to get the web server's response and use System.out to print this response verbatim. Here are a couple examples of possible `some_path's` that might be tested:
 
 ```
-174.23.16f/__
-masters/__
-index.shtml__
+174.23.16f/
+masters/
+index.shtml
 ../pollett/
 ```
 
