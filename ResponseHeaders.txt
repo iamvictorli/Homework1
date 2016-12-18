@@ -1,0 +1,15 @@
+These are the headers I received from the web-server's response
+
+Accept-Ranges: bytes
+X-FRAME-OPTIONS: SAMEORIGIN
+Transfer-Encoding: chunked
+
+Accept-Ranges: bytes
+This header specifies the ranges used by the server to support any request
+
+X-FRAME-OPTIONS: SAMEORIGIN
+This header indicates the browser page to be rendered and displayed in a page itself 
+
+Transfer-Encoding: chunked
+This header specifies if any changes are needed to a file to be successfully sent out. chunked means that the data is divided into chunks and sent. The reciever patches the chunks afterwards.
+
